@@ -87,13 +87,13 @@ This repository contains Python scripts for analyzing and visualizing beam behav
 ### Usage 
 1. Test the Calculations
    Run the test_script.py to verify the shear force, bending moment, and stress calculations:
-    bash
+   ```bash
    Copy code
    python tests/test_script.py
 ---
 2. Visualize the Results
    Generate and view plots for shear force and bending moment distributions:
-    bash
+   ```bash
    Copy code
    python visualization/visualize_results.py
    The plots will be saved in the results/ directory.
