@@ -35,3 +35,8 @@ To get started, clone this repository and install the required dependencies.
    ```bash
    git clone https://github.com/Srinivas26k/engineering-simulations.git
    cd engineering-simulations
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+ 
