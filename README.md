@@ -84,44 +84,40 @@ This repository contains Python scripts for analyzing and visualizing beam behav
     Copy code
     pip install matplotlib
 
-### Usage
-        1. Test the Calculations
-            Run the test_script.py to verify the shear force, bending moment, and stress calculations:
+### Usage 
+1. Test the Calculations
+   Run the test_script.py to verify the shear force, bending moment, and stress calculations:
+    bash
+   Copy code
+   python tests/test_script.py
+---
+2. Visualize the Results
+   Generate and view plots for shear force and bending moment distributions:
+    bash
+   Copy code
+   python visualization/visualize_results.py
+   The plots will be saved in the results/ directory.
+----
+3. Customize Beam Parameters
+   You can modify the beam length, load intensity, and cross-section dimensions in test_script.py or visualize_results.py to analyze different cases.
+   Example Output
+   Shear Force Distribution
+    Bending Moment Distribution
 
-            bash
-            Copy code
-            python tests/test_script.py
+ ## Applications
+   Engineering coursework or research in structural analysis.
+   Practical applications for designing beams in civil and mechanical engineering.
+   Contributing
+   Pull requests are welcome! If you want to contribute to this project:
 
-        2. Visualize the Results
-            Generate and view plots for shear force and bending moment distributions:
-
-            bash
-            Copy code
-            python visualization/visualize_results.py
-
-            The plots will be saved in the results/ directory.
-
-        3. Customize Beam Parameters
-            You can modify the beam length, load intensity, and cross-section dimensions in test_script.py or visualize_results.py to analyze different cases.
-
-            Example Output
-            Shear Force Distribution
-
-            Bending Moment Distribution
-
-            Applications
-            Engineering coursework or research in structural analysis.
-            Practical applications for designing beams in civil and mechanical engineering.
-            Contributing
-            Pull requests are welcome! If you want to contribute to this project:
-
-            Fork the repository.
-            Create a feature branch (git checkout -b feature-name).
-            Commit your changes (git commit -m 'Add some feature').
-            Push to your branch (git push origin feature-name).
-            Open a pull request.
-            License
-            This project is licensed under the MIT License. See LICENSE for details.
+## Fork the repository.
+   Create a feature branch (git checkout -b feature-name).
+   Commit your changes (git commit -m 'Add some feature').
+   Push to your branch (git push origin feature-name).
+   Open a pull request.
+   
+   License
+   This project is licensed under the MIT License. See LICENSE for details.
 
 ### Contact
     For any questions or suggestions, reach out to:
