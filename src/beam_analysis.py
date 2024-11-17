@@ -22,7 +22,7 @@ def calculate_bending_moment(beam_lenght,load_intensity):   # Calculating bendin
    M = (load_intensity/2) * x * (beam_lenght-x) 
    return x,M
 
-def claculate_bending_stress(M,Y,I):
+def calculate_bending_stress(M,Y,I):
    """
     Calculate bending stress distribution along the beam.
     :param M: Bending moment (Nm)
