@@ -53,8 +53,8 @@ The tool supports multiple load cases and beam configurations, providing insight
     sympy   
     jupyter
 
-    Install them locally:
-    ```bash
+Install them locally:
+ ```bash
     pip install -r requirements.txt
 
 # Beam Analysis and Visualization
@@ -80,8 +80,7 @@ This repository contains Python scripts for analyzing and visualizing beam behav
    cd beam-analysis
 
 2. Install required Python libraries:
-    bash
-    Copy code
+ ```bash
     pip install matplotlib
 
 ### Usage 
@@ -120,10 +119,9 @@ This repository contains Python scripts for analyzing and visualizing beam behav
    This project is licensed under the MIT License. See LICENSE for details.
 
 ### Contact
-    For any questions or suggestions, reach out to:
-
-    Name: Srinivas
-    LinkedIn: Your LinkedIn Profile
+ For any questions or suggestions, reach out to:
+Name: Srinivas
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srinivas-nampalli/)
 
 
 
